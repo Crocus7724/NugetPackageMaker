@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+	<Extension
+		path="/MonoDevelop/Ide/Commands/Edit">
+		<Command
+			id="NugetPackageMaker.NugetPackageMakerCommands.MakeNuspec"
+			_label="Make Nuspec"
+			defaultHandler="NugetPackageMaker.MakeNuspecHandler" />
+		<Command
+			id="NugetPackageMaker.NugetPackageMakerCommands.MakePackage"
+			_label="Make Nuget Package"
+			defaultHandler="NugetPackageMaker.MakePackageHandler" />
+	</Extension>
+	<Extension
+		path="/MonoDevelop/Ide/MainMenu/Edit">
+		<CommandItem
+			id="NugetPackageMaker.NugetPackageMakerCommands.MakeNuspec" />
+		<CommandItem
+			id="NugetPackageMaker.NugetPackageMakerCommands.MakePackage" />
+	</Extension>
+	<Runtime>
+	</Runtime>
+</ExtensionModel>
