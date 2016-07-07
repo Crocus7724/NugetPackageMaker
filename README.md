@@ -19,7 +19,8 @@ Xamarin StudioでNuget Packageを簡単に作成する拡張機能です。(Mac�
 ![image 3](https://github.com/Crocus7724/NugetPackageMaker/blob/master/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202016-07-07%2011.44.18.png)
 
 ## 中の動き
-.Net Frameworkの`system.Diagnostics.Process`クラスを使い、ターミナルのコマンドをぶっ叩いています。
+`Make Nuspec`を押すと`MakeNuspecHandler.fs`が実行され、`Make Package`を押すと`MakePackageHandler.fs`が実行されます。
+.nuspecファイル作成と.nupkgファイル作成は.Net Frameworkの`system.Diagnostics.Process`クラスを使い、ターミナルのコマンドをぶっ叩いています。
 
 `Make Nuspec`では`Process`クラスを使い.nuspecファイルを作成したあと、プロジェクト情報(アセンブリ情報)とpackages.configファイルを使用し、.nuspecを書き換えています。
 
