@@ -3,6 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "NugetPackageMaker", "NugetPackageMaker\NugetPackageMaker.fsproj", "{2BCEFA8F-361C-42E6-9031-EDCB1B762B40}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9CBECBB0-88D0-42D3-A364-A6E5BF465338}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{E3C4A0FF-B83E-45A3-9F13-DCE78568323A}"
+	ProjectSection(SolutionItems) = preProject
+		スクリーンショット 2016-07-07 11.26.52.png = スクリーンショット 2016-07-07 11.26.52.png
+		スクリーンショット 2016-07-07 11.43.35.png = スクリーンショット 2016-07-07 11.43.35.png
+		スクリーンショット 2016-07-07 11.44.18.png = スクリーンショット 2016-07-07 11.44.18.png
+		スクリーンショット 2016-07-07 12.02.20.png = スクリーンショット 2016-07-07 12.02.20.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,9 +32,9 @@ Global
 		$0.TextStylePolicy = $2
 		$2.FileWidth = 120
 		$2.TabsToSpaces = False
-		$2.inheritsSet = VisualStudio
+		$2.inheritsSet = null
 		$2.inheritsScope = text/plain
-		$2.scope = application/xml
+		$2.scope = application/x-addin+xml
 		$2.TabWidth = 2
 		$2.IndentWidth = 2
 		$0.FSharpFormattingPolicy = $3
@@ -197,5 +207,8 @@ Global
 		$33.NamingStyle = PascalCase
 		$33.IncludeInstanceMembers = True
 		$33.IncludeStaticEntities = True
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3C4A0FF-B83E-45A3-9F13-DCE78568323A} = {9CBECBB0-88D0-42D3-A364-A6E5BF465338}
 	EndGlobalSection
 EndGlobal
